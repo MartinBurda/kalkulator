@@ -1,0 +1,75 @@
+body {
+    background-color: rgb(163, 159, 159);
+}
+
+.calc {
+    margin: auto;
+    background-color: black;
+    border: 2px solid whitesmoke;
+    width: 24%;
+    height: 630px;
+    border-radius: 20px;
+    box-shadow: 10px 10px 40px;
+}
+
+.maininput {
+    background-color: black;
+    border: 1px solid grey;
+    height: 125px;
+    width: 98.2%;
+    font-size: 80px;
+    color: whitesmoke;
+    font-weight: 00;
+}
+
+.numbtn, .calbtn, .c, .equal {
+    padding: 20px; /* Adjust padding for uniformity */
+    border-radius: 50px;
+    font-weight: 500;
+    font-size: large;
+    margin: 5px; /* Space between buttons */
+    flex: 1 1 20%; /* Allows buttons to grow/shrink */
+    max-width: 80px; /* Optional: Set a max width for buttons */
+}
+
+.numbtn {
+    background-color: rgb(155, 154, 154);
+}
+
+.numbtn:hover {
+    background-color: rgb(136, 133, 133);
+    color: whitesmoke;
+}
+
+.calbtn {
+    background-color: orange;
+}
+
+.calbtn:hover {
+    background-color: rgb(211, 140, 7);
+    color: whitesmoke;
+}
+
+.c {
+    background-color: red;
+}
+
+.c:hover {
+    background-color: rgb(188, 16, 16);
+    color: whitesmoke;
+}
+
+.equal {
+    background-color: rgb(8, 181, 8);
+}
+
+.equal:hover {
+    background-color: green;
+    color: whitesmoke;
+}
+
+.button-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the buttons */
+}
